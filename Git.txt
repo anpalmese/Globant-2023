@@ -1,0 +1,22 @@
+ls //lista las carpetas
+ls -a //lista las carpetas y archivos
+pwd //muestra la carpeta actual
+cd (nombre de carpeta) //moverse por carpetas
+mkdir (nombre de carpeta) //crear carpeta
+rm (nombre de archivo) //elimina un archivo
+git init //inicializa un repositorio en la carpeta actual
+git status //muestra el estado actual de nuestro repositorio
+git add (nombre de archivos o expresiones regulares. Separados por espacios) //añade archivos al repositorio
+git commit -m "(motivo del commit)" //commitea los archivos añadidos
+git restore --staged (nombre de archivo) //saca un archivo de la etapa de stage
+git restore (nombre de archivo) //restaura un archivo eliminado
+mv (nombre de archivo) (nombre a cambiar) //cambia el nombre de un archivo
+git mv (nombre de archivo) (nombre a cambiar) //cambia el nombre de un archivo ya añadido al stage
+git diff //muestra los cambios realizados
+git diff --staged //muestra los cambios realizados en la etapa de stage
+git log --oneline //muestra el historial de commits
+git branch //muestra la branch en la que nos encontramos
+git checkout -b (nombre de la branch) //cambia a otra branch
+cat (nombre de archivo) //muestra el contenido de un archivo
+git merge (nombre de branch) //trae los cambios de la rama indicada a la que nos encontremos
+
